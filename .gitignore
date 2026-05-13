@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.log
+cache/
+logs/
+downloads/
+database/
+diagnostics/
+recovery/
+extracted_tools/
+mobile/
+assets/
+*.zip
