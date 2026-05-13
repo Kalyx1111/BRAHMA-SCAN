@@ -1,0 +1,46 @@
+body.mobile-device {
+    zoom: 1;
+    overflow-x: hidden;
+}
+
+.mobile-device .main-container,
+.mobile-device .container,
+.mobile-device .content {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 10px !important;
+    margin: 0 !important;
+}
+
+.mobile-device input,
+.mobile-device textarea,
+.mobile-device button,
+.mobile-device select {
+    width: 100% !important;
+    font-size: 16px !important;
+}
+
+.mobile-device table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.mobile-device .sidebar {
+    display: none !important;
+}
+
+.mobile-device .card,
+.mobile-device .panel,
+.mobile-device .box {
+    width: 100% !important;
+    margin-bottom: 10px !important;
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+}

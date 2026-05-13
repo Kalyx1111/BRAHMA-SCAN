@@ -1,0 +1,9 @@
+{
+  "version":"1.0",
+  "mode":"FULL",
+  "auto_browser":true,
+  "diagnostics":true,
+  "recovery":true,
+  "local_ai_optional":true,
+  "default_port":8080
+}
